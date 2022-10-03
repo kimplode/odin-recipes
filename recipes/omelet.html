@@ -4,26 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles.css" type="text/css" rel="stylesheet">
     <title>Wasteland Omelet</title>
 </head>
 <body>
-    <h1>Wasteland Omelet</h1>
-    <img src="https://static.wikia.nocookie.net/fallout/images/e/ed/Wasteland_omelette.png" alt="Wasteland Omelet">
+    <div>
+    <h1 id="title">Wasteland Omelet</h1>
+    <img src="https://static.wikia.nocookie.net/fallout/images/e/ed/Wasteland_omelette.png" alt="Wasteland Omelet" width="400px">
+    </div>
+
+    <div>
     <h3>Description</h3>
     <p>
         <b>Game: <i>Fallout: New Vegas</i></b>
-        <br><br>
-        Available for purchase on The Strip, the Wasteland Omelet is delicious meal for anytime of day. Made of hearty ingredients, the meal is good for the soul and helps heal what ails you. Traditional ingredients include BlamCo Mac & Cheese, Mutfruit, Deathclaw Egg and Lakelurk Meat.
+        <br>
+    Available for purchase on The Strip, the Wasteland Omelet is delicious meal for anytime of day. Made of hearty ingredients, the meal is good for the soul and helps heal what ails you. Traditional ingredients include BlamCo Mac & Cheese, Mutfruit, Deathclaw Egg and Lakelurk Meat.
     </p>
+    </div>
+    <div>
     <h3>Ingredients</h3>
-        <ul>
+        <ul class="ingredients">
             <li>3 large eggs</li>
             <li>2 oz grilled lobster</li>
             <li>1/2 box cooked Macaroni & Cheese</li>
-            <li>1 apple, sliced</li>
+            <li>1 apple, sliced (optional)</li>
         </ul>
-    <h3>Steps</h3>
-        <ol>
+    </div>
+    <div>
+        <h3>Steps</h3>
+        <ol class="steps">
             <li>Heat skillet to Medium.</li>
             <li>In a medium sized bowl, whisk eggs.</li>
             <li>Add remaining ingredients.</li>
@@ -33,6 +42,9 @@
             <li>Place apple slices atop the omelet.</li>
             <li>Enjoy.</li>
         </ol>
+    <br><br>
+    </div>
+    <br>
         <form>
             <input type="button" value="Back to Home" onclick="history.back()">
         </form>
